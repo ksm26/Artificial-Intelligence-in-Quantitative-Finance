@@ -1,0 +1,20 @@
+﻿name: aiqf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - yfinance
+  - matplotlib
+  - scikit-learn
+  - ta
+  - jupyterlab
+  - seaborn
+  - pip
+  - pip:
+      - pandas-datareader
+      - pyportfolioopt
+      - torch
+      - torchvision
+      - torchaudio
